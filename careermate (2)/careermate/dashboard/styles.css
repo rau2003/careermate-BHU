@@ -1,0 +1,139 @@
+/* CSS for header */
+.header-container-unique {
+    background-color: #000000;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+.header-content-unique {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-logo-unique {
+    width: 50px;
+    height: 50px;
+}
+
+.header-title-unique {
+    font-size: 2rem;
+    margin: 0;
+}
+
+.header-logout-btn-unique {
+    color: #fff;
+    text-decoration: none;
+    background-color: #ff5252;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    border: none;
+    cursor: pointer;
+}
+
+.header-logout-btn-unique:hover {
+    background-color: #e53935;
+}
+
+/* CSS for footer */
+footer {
+    background-color: #263238;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    width: 100%;
+}
+
+footer .footer-links a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 10px;
+    transition: color 0.3s;
+}
+
+footer .footer-links a:hover {
+    color: #007bff;
+}
+
+footer .social-media {
+    margin: 20px 0;
+}
+
+footer .social-media a {
+    margin: 0 10px;
+}
+
+footer .social-media img {
+    height: 30px;
+    width: 30px;
+    transition: transform 0.3s;
+}
+
+footer .social-media img:hover {
+    transform: scale(1.2);
+}
+
+footer .address {
+    margin: 10px 0;
+}
+
+footer p {
+    margin: 10px 0;
+}
+
+
+/* CSS for main content */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e0f7fa;
+    margin: 0;
+    padding: 0;
+}
+
+.dashboard-container-unique {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 120px); /* Adjust for header and footer height */
+    padding-top: 20px;
+}
+
+.dashboard-unique {
+    background-color: #fff8e1;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+}
+
+.dashboard-item-unique {
+    margin: 10px 0;
+}
+
+.card-unique {
+    background-color: #e0f2f1;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    transition: background-color 0.3s;
+}
+
+.card-unique:hover {
+    background-color: #b2dfdb;
+}
+
+.dashboard-item-unique a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #004d40;
+    display: block;
+}
+
+.dashboard-icon-unique {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+    border-radius: 50%;
+}
